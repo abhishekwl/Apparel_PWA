@@ -116,27 +116,27 @@ class SearchAppBar extends React.PureComponent {
                     <b>Sectors</b>
                 </Typography>
                 <List>
-                    <ListItem button key={0} onClick={ () => this.setState({ sectorName: "Home" }) }>
+                    <ListItem button key={0} onClick={ () => this.setState({ sectorName: "Home", tabValue: 0 }) }>
                         <ListItemIcon><HomeIcon color='secondary' /></ListItemIcon>
                         <ListItemText primary="Home" />
                     </ListItem>
 
-                    <ListItem button key={2} onClick={ () => this.setState({ sectorName: "Fashion" }) }>
+                    <ListItem button key={2} onClick={ () => this.setState({ sectorName: "Fashion", tabValue: 0 }) }>
                         <ListItemIcon><PeopleIcon color='secondary' /></ListItemIcon>
                         <ListItemText primary="Fashion" />
                     </ListItem>
 
-                    <ListItem button key={1} onClick={ () => this.setState({ sectorName: "Entertainment" }) }>
+                    <ListItem button key={1} onClick={ () => this.setState({ sectorName: "Entertainment", tabValue: 0 }) }>
                     <ListItemIcon><ShoppingBasketIcon color='secondary' /></ListItemIcon>
                         <ListItemText primary="Entertainment" />
                     </ListItem>
 
-                    <ListItem button key={3} onClick={ () => this.setState({ sectorName: "Automobile" }) }>
+                    <ListItem button key={3} onClick={ () => this.setState({ sectorName: "Automobile", tabValue: 0 }) }>
                     <ListItemIcon><DirectionsIcon color='secondary' /></ListItemIcon>
                         <ListItemText primary="Automobile" />
                     </ListItem>
 
-                    <ListItem button key={4} onClick={ () => this.setState({ sectorName: "Miscellaneous" }) }>
+                    <ListItem button key={4} onClick={ () => this.setState({ sectorName: "Miscellaneous", tabValue: 0 }) }>
                     <ListItemIcon><CardTravelIcon color='secondary'/></ListItemIcon>
                         <ListItemText primary="Miscellaneous" />
                     </ListItem>
